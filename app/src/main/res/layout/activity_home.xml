@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1995ad"
+    android:orientation="vertical"
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+    tools:context="com.example.android.cvbuilderapp.HomeActivity"
+    tools:passwordToggleEnabled="true">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="CV Builder App"
+        android:textColor="#F39C12"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="#1995ad"
+        android:gravity="center"
+        android:layout_marginTop="42dp"
+
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:text="Sign Up to create CV"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textColor="#F39C12"/>
+    <Button
+        android:id="@+id/btSignUpPage"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:text="Sign Up"
+        android:textStyle="bold"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:textColor="#A1D6E2"
+        android:textSize="24sp"
+        android:textAllCaps="false"
+        android:background="#F39C12"
+        android:layout_marginTop="40dp"
+        android:gravity="center"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="36dp"
+        android:background="#FFFFFF">
+
+    </View>
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="#1995ad"
+        android:layout_marginTop="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:text="Already have an account? Sign in"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textColor="#F39C12"/>
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/btSignInPage"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:text="Sign In"
+        android:textStyle="bold"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:textColor="#A1D6E2"
+        android:textSize="24sp"
+        android:background="#F39C12"
+        android:layout_marginTop="40dp"
+        android:gravity="center"/>
+
+</LinearLayout>

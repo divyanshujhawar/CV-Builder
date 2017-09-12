@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_experience_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.cvbuilderapp.ExperienceDetailsActivity">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:theme="@style/PopupOverlay">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarUser"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#1995ad"
+        app:menu="@menu/navigation_menu"
+        app:popupTheme="@style/PopupOverlay">
+
+    </android.support.v7.widget.Toolbar>
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="16dp"
+            android:text="Write about your profesional experience"
+            android:gravity="center"/>
+
+        <EditText
+            android:gravity="top"
+            android:id="@+id/etExperience"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="24dp"
+            android:background="@drawable/custom_border"
+            android:layout_marginRight="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Start writing here"
+            />
+    </android.support.design.widget.AppBarLayout>
+</LinearLayout>

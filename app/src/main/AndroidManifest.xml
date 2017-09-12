@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.cvbuilderapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <application android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".WebViewActivity" />
+        <activity
+            android:name=".NavDrawer"
+            android:label="CV Builder">
+
+            <!-- android:theme="@style/Theme.AppCompat.NoActionBar" -->
+        </activity>
+        <activity
+            android:name=".PersonalDetailsActivity"
+            android:label="Personal Details" />
+        <activity android:name=".EducationalDetailsActivity" />
+        <activity android:name=".ProjectsActivity" />
+        <activity android:name=".ExperienceDetailsActivity" />
+        <activity
+            android:name=".UserFormActivity"
+            android:label="CV Builder" />
+        <activity android:name=".SocialLinkActivity" />
+        <activity android:name=".InterestActivity" />
+        <activity android:name=".SkillsActivity" />
+        <activity android:name=".SampleActivity"></activity>
+    </application>
+
+</manifest>

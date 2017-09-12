@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_social_link"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.cvbuilderapp.SocialLinkActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:theme="@style/PopupOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbarUser"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#1995ad"
+            app:menu="@menu/navigation_menu"
+            app:popupTheme="@style/PopupOverlay">
+
+        </android.support.v7.widget.Toolbar>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="Fill the desired fields"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="24dp"
+            android:id="@+id/etFacebookLink"
+            android:hint="Facebook Link" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/etLinkdinLink"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="12dp"
+            android:hint="Linkdin Link" />
+
+        <EditText
+            android:id="@+id/etGithubLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="12dp"
+            android:hint="Github Link" />
+    </android.support.design.widget.AppBarLayout>
+</LinearLayout>

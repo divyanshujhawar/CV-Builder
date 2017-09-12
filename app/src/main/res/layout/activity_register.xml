@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1995ad"
+    android:orientation="vertical"
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+    tools:context="com.example.android.cvbuilderapp.RegisterActivity"
+    tools:passwordToggleEnabled="true">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginTop="24dp" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginTop="24dp"
+        android:background="#8CF4F6F6"
+        android:hint="Enter full name"
+        android:inputType="textCapSentences"
+        android:paddingEnd="8dp"
+        android:paddingStart="8dp"
+        android:textColor="#8C6F0B"
+        android:textColorHint="#F39C12" />
+
+    <!--android:background="#8CF4F6F6"-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:background="@android:color/darker_gray" />
+
+    <EditText
+
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginTop="12dp"
+        android:background="#8CF4F6F6"
+        android:hint="Enter email address"
+        android:inputType="textEmailAddress"
+        android:paddingEnd="8dp"
+        android:paddingLeft="8dp"
+        android:paddingStart="8dp"
+        android:textColor="#8C6F0B"
+        android:textColorHint="#F39C12" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:background="@android:color/darker_gray" />
+
+    <EditText
+
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginTop="12dp"
+        android:background="#8CF4F6F6"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingEnd="8dp"
+        android:paddingLeft="8dp"
+        android:paddingStart="8dp"
+        android:textColor="#8C6F0B"
+        android:textColorHint="#F39C12" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:background="@android:color/darker_gray" />
+
+
+    <EditText
+
+        android:id="@+id/etConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginTop="12dp"
+        android:background="#8CF4F6F6"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:paddingEnd="8dp"
+        android:paddingLeft="8dp"
+        android:paddingStart="8dp"
+        android:textColor="#8C6F0B"
+        android:textColorHint="#F39C12" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:background="@android:color/darker_gray" />
+
+    <EditText
+
+        android:id="@+id/etMobileNumber"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginTop="12dp"
+        android:background="#8CF4F6F6"
+        android:hint="Enter 10 digit mobile number"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:paddingEnd="8dp"
+        android:paddingLeft="8dp"
+        android:paddingStart="8dp"
+        android:textColor="#8C6F0B"
+        android:textColorHint="#F39C12" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:background="@android:color/darker_gray" />
+
+
+    <Button
+        android:id="@+id/btCreateAccount"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginRight="84dp"
+        android:layout_marginTop="24dp"
+        android:background="#F8F9F9"
+        android:text="Sign Up"
+        android:textColor="#F39C12" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginTop="16dp"
+        android:text="Forgot your password?"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/btSignInPage"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginTop="42dp"
+        android:background="#F39C12"
+        android:text="Already have an account? Sign in"
+        android:textAllCaps="false"
+        android:textColor="#A1D6E2"
+        android:textStyle="bold" />
+
+</LinearLayout>
